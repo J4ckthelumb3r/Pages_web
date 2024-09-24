@@ -1,0 +1,114 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: lightgrey;
+	position: sticky;
+	top: 0;
+}
+
+nav h1
+{
+	font-size: 20px;
+}
+
+nav .onglets
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav .onglets p
+{
+	font-size: 18px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+nav .onglets input
+{
+	margin: 10px 20px;
+	padding: 10px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+}
+
+.main
+{
+	margin: 20px;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cards
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cards .card
+{
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.cards .card img
+{
+	width: 380px;
+}
+
+.cards .card .card-header
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.cards .card .card-body
+p{
+	margin-top: -10px;
+}
+
+.cards .card img
+{
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+footer
+{
+	margin-top: 4%;
+	background-color: lightgrey;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+footer .social-media
+{
+	display: flex;
+}
+
+footer .social-media p
+{
+	margin-right: 15px;
+	border: 1px solid black;
+	border-radius: 100%;
+	padding: 5px;
+	text-align: center;
+	width: 20px;
+	cursor: pointer;
+}

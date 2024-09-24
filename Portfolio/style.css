@@ -1,0 +1,136 @@
+@font-face 
+{
+    font-family: 'lunaregular';
+    src: url('luna-webfont.woff2') format('woff2'),
+         url('luna-webfont.woff') format('woff'),
+         url('./fonts/luna.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 
+{
+	color: black;
+	font-size: 24px;
+	font-family: lunaregular;
+}
+
+h2
+{
+	color: black;
+	font-family: 'Smooch+Sans', cursive;
+}
+
+a 
+{
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 20px;
+}
+
+a:hover 
+{
+	color: lightgrey;
+}
+
+#hero
+{
+	background: url('images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 1%;
+}
+
+nav
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#bandeau
+{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#contenu
+{
+	text-align: center;
+	padding: 4%;
+}
+
+#contenu a
+{
+	color: black;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding-bottom: 15px;
+	transition: ease 1s;
+}
+
+#contenu a:hover
+{
+	color: white;
+	background-color: rgba(179, 32, 19, 0.8);
+}
+
+#apropos
+{
+	display: flex;
+}
+
+#apropos_image img
+{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	flex: 1;
+}
+
+#apropos_texte
+{
+	padding: 20px;
+	flex: 2;
+	text-align: justify;
+}
+
+#services
+{
+	display: flex;
+	background-color: #666;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.services_item p
+{
+	text-align: justify;
+	padding: 20px;
+}
+
+html
+{
+	font-family: 'Smooch+Sans', cursive;
+	font-size: 16px;
+}
+
+@media screen and (max-width: 414px)
+{ #apropos
+	{
+		flex-direction: column;
+	}
+	#services
+	{
+		flex-direction: column;
+	}
+	nav a
+	{
+		display: block;
+		padding: 10px;
+	}
+}
