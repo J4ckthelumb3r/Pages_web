@@ -1,0 +1,88 @@
+/* Réglages globaux pour la page HTML */
+html {
+    width: 660px; /* Largeur souhaitée de la page */
+  }
+  
+  /* Styles de l'en-tête du menu */
+  .Menu {
+    background-color: #A6292A;
+    text-align: center;
+    color: #FA0F13;
+    height: 75px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles du titre du menu */
+  .menu-title {
+    font-size: 30px;
+  }
+  
+  /* Styles du conteneur principal "Corps" */
+  .Corps {
+    background-color: #6495ED;
+    display: flex;
+    flex-direction: column; /* Les éléments à l'intérieur seront disposés en colonne */
+    align-items: center; /* Alignement au centre horizontalement */
+    height: 350px;
+  }
+  
+  /* Styles du bloc bleu "blue-block" */
+  .blue-block {
+    background-color: #6495ED;
+    padding: 0; /* Supprimer les marges intérieures */
+    text-align: justify; /* Justifier le texte */
+  }
+  
+  /* Styles des colonnes à l'intérieur de ".columns" */
+  .columns {
+    display: flex;
+    flex-direction: row; /* Les éléments à l'intérieur de ".columns" seront disposés en ligne */
+  }
+  
+  /* Styles de la colonne de gauche ".column-left" */
+  .column-left {
+    background-color: #2677A5;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px; /* Supprimer la marge supérieure */
+    padding-bottom: 0px; /* Supprimer la marge inférieure */
+  }
+  
+  /* Styles de la colonne de droite ".column-right" */
+  .column-right {
+    background-color: #47E187;
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Styles pour le tableau ".table" */
+  .table {
+    border-collapse: collapse;
+  }
+  
+  /* Styles pour les cellules du tableau ".table" */
+  .table td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  /* Styles du pied de page ".Footer" */
+  .Footer {
+    background-color: #BDB76B;
+    text-align: center;
+    height: 100px;
+  }
+  
+  /* Styles pour les liens dans le pied de page */
+  .Footer a {
+    text-decoration: underline;
+    color: #561C8E;
+  }
+  
+  /* Styles de lien global */
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
