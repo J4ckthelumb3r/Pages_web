@@ -38,3 +38,17 @@ $('a.smooth-scroll')
     }
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelector('.custom-download-label').addEventListener('click', function(event) {
+      event.preventDefault(); // Empêche le comportement par défaut du label
+
+      // Crée un lien temporaire pour le téléchargement
+      const link = document.createElement('a');
+      link.href = 'images/cv_old.jpg';
+      link.download = 'cv_old.jpg'; // Nom du fichier téléchargé
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+  });
+});
