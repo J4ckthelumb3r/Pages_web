@@ -45,8 +45,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Crée un lien temporaire pour le téléchargement
       const link = document.createElement('a');
-      link.href = 'images/cv_old.jpg';
-      link.download = 'cv_old.jpg'; // Nom du fichier téléchargé
+      link.href = 'images/cv.png';
+      link.download = 'cv.png'; // Nom du fichier téléchargé
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
