@@ -5275,7 +5275,6 @@ a.credit {
   background-color: transparent;
   color: whitesmoke;
   height: 60px;
-  width: 120px;
   border: 5px solid #378C3F;
   border-radius: 50px;
   padding: 10px 20px;
@@ -5317,7 +5316,7 @@ a.credit {
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 50px;
-  width: 200px;
+  width: 240px;
   height: 60px;
   cursor: pointer;
   transition: all 0.4s ease;
